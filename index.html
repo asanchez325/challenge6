@@ -9,15 +9,31 @@
     <title>Weather Dashboard</title>
 </head>
 <body>
-    <nav class="">
-        <p class="">Wether Dashboard</h1>
+<!--Start Header Section-->
+    <nav class="navbar navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1 w-100 text-center">Wether Dashboard</h1>
     </nav>
+<!--Start Search for a city section-->
     <div class="container">
         <div class="row">
-
+            <div class="col-4 bg-light">
+                <p class="search-header my-1">Search for a City:</p>
+                <div class="input-group-append">
+                    <input id="city-input" type="text" class="" placeholder="Enter City Name" aria-label="Enter City Name">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="button" id="search-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            <button class="btn btn-primary mb-3" type="button" id="clear-history">Clear Search History</button>
+            <form id="history"></form>
         </div>
     </div>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="assets/js/script.js"></script>
+<!--Start Search Result Section-->
+<!--Start Current Day Weather Section-->
+<!--Start 5 day forecast section-->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
