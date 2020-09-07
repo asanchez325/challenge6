@@ -1,7 +1,8 @@
 .city-name {
     font-size: 35px;
+    font-display: bold;
 }
 
 .forecast-date {
-    font-size: 25px;
+    font-size: 15px;
 }
